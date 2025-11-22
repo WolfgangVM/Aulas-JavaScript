@@ -1,0 +1,23 @@
+// resposta professor
+
+/*
+ *Luiz Otávio Miranda tem 30 anos, pesa 84 Kg
+ *tem 1,8 de autura e seu IMC é de 25.925925925925924
+ *Luiz Otávio naasceu em 1980 
+ */
+const nome = 'Luiz Otávio';
+const sobrenome = 'Miranda';
+const idade = 30;
+const peso = 84;
+const alturaEmM = 1.80;
+let indiceMassaCorporal;
+let anoNascimento;
+
+indiceMassaCorporal = peso / (alturaEmM * alturaEmM);
+anoNascimento = 2019 - idade;
+
+//template string
+
+console.log(`${nome} ${sobrenome} tem ${idade} anos, pesa ${peso} Kg`);
+console.log(`tem ${alturaEmM} de altura e seu IMC é de ${indiceMassaCorporal}`);
+console.log(`${nome} nasceu em ${anoNascimento}`);
