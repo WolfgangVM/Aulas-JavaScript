@@ -14,7 +14,7 @@ console.log(num4);
 console.log(Math.max(1,2,3,4,5,-10,-50,1500,9,8,7,6));  //pega o maior numero da lista
 console.log(Math.min(1,2,3,4,5,-10,-50,1500,9,8,7,6));  // pega o menor item da lista
 
-const aleatorio = Math.round(Math.random() * (10 - 5) + 5); //gra um numero aleatório emtre 5 e 10 inteiro(arredondado pelo round)
+const aleatorio = Math.round(Math.random() * (10 - 5) + 5); //gera um numero aleatório emtre 5 e 10 inteiro(arredondado pelo round)
 console.log(aleatorio);
 
 console.log(Math.PI);
